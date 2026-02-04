@@ -2,6 +2,7 @@
   "name": "researchhub",
   "scripts": {
     "build": "pnpm run -r build",
-    "dev": "caddy start --config caddy/Caddyfile.dev && pnpm run -r --parallel --aggregate-output dev"
+    "dev": "caddy start --config caddy/Caddyfile.dev && pnpm run -r --parallel --aggregate-output dev",
+    "start": "pnpm run -r start"
   }
 }
