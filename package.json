@@ -1,0 +1,6 @@
+{
+  "name": "researchhub",
+  "scripts": {
+    "dev": "caddy start --config caddy/Caddyfile.dev && pnpm run -r --parallel --aggregate-output dev"
+  }
+}
