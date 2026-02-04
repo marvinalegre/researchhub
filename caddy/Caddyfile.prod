@@ -1,4 +1,4 @@
-:4000 {
+testingg.bid {
     handle_path /api/* {
         reverse_proxy localhost:4001
     }
