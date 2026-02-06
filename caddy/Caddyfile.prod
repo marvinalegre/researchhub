@@ -1,0 +1,9 @@
+testingg.bid {
+    handle_path /api/* {
+        reverse_proxy localhost:4001
+    }
+
+    handle {
+        reverse_proxy localhost:4000
+    }
+}
